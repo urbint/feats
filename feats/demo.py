@@ -46,6 +46,7 @@ if __name__ == '__main__':
             },
             {
                 "type"       : "compound", # recusrive pipeline
+                # this does a tf idf transform, then does svd and lda on the results
                 "transforms" : [
                     {
                         "type"       : "featurizer",
