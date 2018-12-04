@@ -31,6 +31,7 @@ required_libraries=[
     "annoy>=1.11.5",
     "joblib>=0.11",
     "seaborn>=0.9.0",
+    "xlrd>=0.9.0"
 ]
 
 setup(
